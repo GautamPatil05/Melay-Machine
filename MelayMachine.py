@@ -47,6 +47,7 @@ class MealyMachine:
 input_sequence = '101010101' # output: 'A'
 # input_sequence = '101010110' # output: 'B'
 # input_sequence = '101010111'   # output: 'C'
+# input_sequence = input("Enter the String: );
 mealy_machine = MealyMachine()
 for input_char in input_sequence:
     mealy_machine.transition(input_char)
