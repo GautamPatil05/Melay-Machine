@@ -54,3 +54,5 @@ for input_char in input_sequence:
 
 final_output = mealy_machine.get_output()
 print(final_output)  
+
+# Works
